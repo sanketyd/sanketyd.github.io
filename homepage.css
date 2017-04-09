@@ -1,0 +1,33 @@
+body {
+  background-image: url("itachi.jpg");
+  color: #EBC944;
+}
+blockquote {
+  position: fixed;
+  margin-left: 33%;
+  width: 44%;
+  font-style: italic;
+  font-size: 150%;
+}
+button {
+  position: relative;
+  width: 20%;
+  height: 10%;
+  margin-left: 40%;
+  top: 5em;;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: solid;
+  border-color: inherit;
+  border-radius: 4%;
+  color: inherit;
+  font-size: 200%;
+  padding: inherit;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: #EBC944;
+  color: #000000;
+  transition: all 0.5s;
+}
