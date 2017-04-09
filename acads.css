@@ -1,0 +1,26 @@
+body {
+  font-family: calibri;
+  background-image: url(http://www.pptback.com/uploads/old-beige-blank-paper-backgrounds-powerpoint.jpg);
+  font-size: 175%;
+}
+h1 {
+  text-align: center;
+  background-color: #F8ECC2;
+  color: #D2691E;
+  font-style: italic;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 100%;
+}
+table, th, td {
+  border: 1px solid;
+}

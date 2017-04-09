@@ -5,10 +5,12 @@ body {
 }
 blockquote {
   position: fixed;
-  margin-left: 33%;
-  width: 34%;
+  max-height: 20%;
+  margin-left: 32%;
+  width: 36%;
   font-style: italic;
   font-size: 150%;
+  text-align: center;
 }
 button {
   position: relative;
@@ -22,7 +24,7 @@ button {
   border-color: inherit;
   border-radius: 4%;
   color: inherit;
-  font-size: 200%;
+  font-size: 1.7vw;
   padding: inherit;
   transition: all 0.5s;
 }
@@ -32,11 +34,26 @@ button:hover {
   transition: all 0.5s;
 }
 #info {
-  top: 5em;
+  top: 20%;
 }
 #acads {
-  top: 7em;
+  top: 30%;
 }
 #hobby {
-  top:9em;
+  top: 40%;
+}
+a {
+  color: inherit;
+}
+#abtme {
+  display: none;
+}
+#contactinfo {
+  position: fixed;
+  bottom: 5%;
+  font-style: italic;
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+  font-size: 150%;
 }

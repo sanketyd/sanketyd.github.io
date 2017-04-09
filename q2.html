@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <script>
+      var counter=0;
+      function increase(){
+        counter+=1;
+        document.getElementById("counter").innerHTML = counter;
+      }
+    </script>
+    <style>
+      #counter {
+        position: relative;
+        left: 50%;
+        color: #0074D9;
+        font-size: 200%;
+      }
+      button {
+        width: 10%;
+        height: auto;
+        position: absolute;
+        margin-left: 45%;
+        color: #2ECC40;
+        border-width: 2px solid;
+        border-radius: 5px;
+        border-color: #2ECC40;
+        background-color: #FFFFFF;
+      }
+      button:hover {
+        background-color: #01FF70;
+        color: #FFFFFF;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="counter">0</p>
+    <button onclick="increase()">Click me</button>
+  </body>
+</html>
