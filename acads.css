@@ -1,6 +1,7 @@
 body {
   font-family: calibri;
   background-image: url(http://www.pptback.com/uploads/old-beige-blank-paper-backgrounds-powerpoint.jpg);
+  background-attachment: fixed;
   font-size: 175%;
 }
 h1 {
