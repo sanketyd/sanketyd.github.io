@@ -1,11 +1,12 @@
 body {
   background-image: url("itachi.jpg");
+  background-size: cover;
   color: #EBC944;
 }
 blockquote {
   position: fixed;
   margin-left: 33%;
-  width: 44%;
+  width: 34%;
   font-style: italic;
   font-size: 150%;
 }
@@ -14,7 +15,6 @@ button {
   width: 20%;
   height: 10%;
   margin-left: 40%;
-  top: 5em;;
   background-color: Transparent;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -30,4 +30,13 @@ button:hover {
   background-color: #EBC944;
   color: #000000;
   transition: all 0.5s;
+}
+#info {
+  top: 5em;
+}
+#acads {
+  top: 7em;
+}
+#hobby {
+  top:9em;
 }
